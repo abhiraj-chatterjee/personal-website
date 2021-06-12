@@ -44,12 +44,25 @@ a:hover {
   border: 2px black solid;
 }
 
-.about {
+.social-media-img {
+  border-radius: 5px;
+  height: 35px;
+  margin-left: 10px;
+}
+
+.github-icon {
+  background-color: white;
+}
+
+.about,
+.skills {
   background-color: #11999e;
 }
 
 .about-main,
-.projects-main {
+.projects-main,
+.skills-main,
+.experience-main {
   padding-top: 30px;
   padding-bottom: 40px;
 }
@@ -64,6 +77,18 @@ a:hover {
 
 .badge {
   background-color: #11999e;
+}
+
+.skill-icon {
+  padding-right: 4px;
+}
+
+.company-icon {
+  border-radius: 100px;
+  height: 10rem;
+  width: 10.5rem;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 .footer {
