@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth&display=swap");
+
+body {
+  background-color: black;
+  color: #f4f4f4;
+  font-family: "Amaranth", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #6decb9;
+}
+
+a:hover {
+  color: #6decb9;
+  text-decoration: underline;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.introduction {
+  margin-top: 40px;
+  max-width: 70rem;
+}
+
+.my-image {
+  border-radius: 30rem;
+  height: 15rem;
+}
+
+.download-button,
+.download-button:disabled {
+  background-color: #11999e;
+  border: 2px black solid;
+}
+
+.download-button:hover,
+.download-button:focus {
+  background-color: #6decb9;
+  border: 2px black solid;
+}
+
+.about {
+  background-color: #11999e;
+}
+
+.about-main,
+.projects-main {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.project-card {
+  background-color: black;
+}
+
+.project-img {
+  object-fit: cover;
+}
+
+.badge {
+  background-color: #11999e;
+}
+
+.footer {
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 15px;
+}
