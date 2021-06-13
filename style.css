@@ -16,6 +16,10 @@ a:hover {
   text-decoration: underline;
 }
 
+section {
+  height: 100vh;
+}
+
 .btn:focus,
 .btn:active {
   outline: none !important;
